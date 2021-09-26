@@ -39,13 +39,12 @@ def fiboRec(n):
 
 Fibonacci Iterativo
 ```python
-def fiboRec(n):
-    if n==1:
-        return 0
-    elif n==2:
-        return 1
-    else:
-        return fiboRec(n-1) + fiboRec(n-2)
+def fiboIt(n):
+    a, b = 0, 1
+
+    for i in range(1, n):
+        a, b = b, a + b
+    return a
 ```
 
 Josefos Recursivo
@@ -61,13 +60,13 @@ def fiboRec(n):
 
 Josefos Iterativo
 ```python
-def fiboRec(n):
-    if n==1:
-        return 0
-    elif n==2:
-        return 1
-    else:
-        return fiboRec(n-1) + fiboRec(n-2)
+def josephusIterative(n, k = 2):
+      sum = 0;
+
+      for val in range(2,n+1):
+          sum = (sum + k) % val;
+
+      return sum+1;
 ```
 
 ### 3. Dizer como procedeu a contagem do tempo.
