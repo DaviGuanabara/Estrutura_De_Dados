@@ -3,6 +3,7 @@
 ### 1. Equipamento e linguagem utilizada.
 
 Foi utilizado o google colab, assim os algoritmos foram escritos em python.
+Davi Guanabara de Aragão
 
 ### 2. Descrição do algoritmo.
 
@@ -35,17 +36,21 @@ def fiboIt(n):
 ```
 
 Já os números de josefo estão relacionados com o a solução para o problema de Flávio Josefo, o qual consiste em saber em qual posição de um circulo deve-se posicionar para sobrevier a uma sequencia alternada de execução. Com os seus números, tem-se:
-Para 00 integrante(s), posição do sobrevivente: 0
-Para 01 integrante(s), posição do sobrevivente: 1
-Para 02 integrante(s), posição do sobrevivente: 1
-Para 03 integrante(s), posição do sobrevivente: 3
-Para 04 integrante(s), posição do sobrevivente: 1
-Para 05 integrante(s), posição do sobrevivente: 3
-Para 06 integrante(s), posição do sobrevivente: 5
-Para 07 integrante(s), posição do sobrevivente: 7
-Para 08 integrante(s), posição do sobrevivente: 1
-Para 09 integrante(s), posição do sobrevivente: 3
-Para 10 integrante(s), posição do sobrevivente: 5
+
+integrante(s) | posição do sobrevivente 
+--------------|--------------------------
+00 | 0
+01 | 1
+02 | 1
+03 | 3
+04 | 1
+05 | 3
+06 | 5
+07 | 7
+08 | 1
+09 | 3
+10 | 5
+
 
 O algoritmo para solucionar o problema de josefo consiste em remover da sequencia os números restantes de forma alternada. Assim, para uma sequência de 5 números [1, 2, 3, 4, 5], a remoção se dará da seguinte forma:
 
